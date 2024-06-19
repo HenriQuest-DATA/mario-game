@@ -1,0 +1,1 @@
+export let canSquash = { value: false };
