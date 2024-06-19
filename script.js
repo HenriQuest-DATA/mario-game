@@ -1,10 +1,10 @@
-import { handleKeyCommands } from './src/commands/keyCommands.js';
-import { getLevelConfigs } from './src/configs/levelConfigs.js';
-import { loadAssets } from './src/configs/loadAssets.js';
-import { playerActions } from './src/game-logic/playerActions.js';
-import { MAPS } from './src/levels/MAPS.js';
-import { getLevelBg } from './src/levels/backgrounds.js';
-import { canSquash } from './src/states/canSquash.js';
+import { handleKeyCommands } from '/src/commands/keyCommands.js';
+import { getLevelConfigs } from '/src/configs/levelConfigs.js';
+import { loadAssets } from '/src/configs/loadAssets.js';
+import { playerActions } from '/src/game-logic/playerActions.js';
+import { MAPS } from '/src/levels/MAPS.js';
+import { getLevelBg } from '/src/levels/backgrounds.js';
+import { canSquash } from '/src/states/canSquash.js';
 
 kaboom({
     background: [146, 144, 255],

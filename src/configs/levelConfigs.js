@@ -1,7 +1,7 @@
-import { bump } from '../game-logic/bump.js';
-import { enemy } from '../game-logic/enemy.js';
-import { mario } from '../game-logic/mario.js';
-import { patrol } from '../game-logic/patrol.js';
+import { bump } from '/src/game-logic/bump.js';
+import { enemy } from '/src/game-logic/enemy.js';
+import { mario } from '/src/game-logic/mario.js';
+import { patrol } from '/src/game-logic/patrol.js';
 
 export function getLevelConfigs(vec2) {
     return {
