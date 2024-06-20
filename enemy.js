@@ -1,4 +1,4 @@
-import { patrol } from "/src/game-logic/patrol.js";
+import { patrol } from "/patrol.js";
 
 export function enemy(){
     return {

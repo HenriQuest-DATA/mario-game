@@ -1,4 +1,4 @@
-import { killed } from '/src/game-logic/killed.js';
+import { killed } from '/killed.js';
 
 export function playerActions(
     player,
