@@ -11,7 +11,7 @@ export function loadAssets() {
     loadSprite('flower', 'flower.png');
     loadSprite('ground', 'ground.png');
     loadSprite('hill', 'hill.png');
-    loadSprite('items', 'items.png');
+    loadSprite('items', 'Items.png');
     loadSprite('pipe', 'pipe.png');
     loadSprite('pipeBottom', 'pipeBottom.png');
     loadSprite('pipeTop', 'pipeTop.png');
