@@ -1,5 +1,5 @@
 export function loadAssets() {
-    loadRoot('/assets/sprites/');
+    loadRoot('../assets/sprites/');
     loadAseprite('mario', 'Mario.png', 'Mario.json');
     loadAseprite('enemies', 'enemies.png', 'enemies.json');
     loadSprite('bigMushy', 'bigMushy.png');
@@ -19,7 +19,7 @@ export function loadAssets() {
     loadSprite('shrubbery', 'shrubbery.png');
     loadSprite('tile', 'tile.png');
 
-    loadRoot('/assets/sounds/');
+    loadRoot('../assets/sounds/');
     loadSound('abovegroundBgm', 'abovegroundBgm.ogg');
     loadSound('undergroundBgm', 'undergroundBgm.ogg');
     loadSound('breakBlock', 'breakBlock.wav');
